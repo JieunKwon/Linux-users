@@ -1,5 +1,5 @@
 # Linux-users
-To practice add users and delete users 
+To add users and delete users 
 
 Add Users
 -------------
