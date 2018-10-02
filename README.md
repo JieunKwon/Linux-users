@@ -29,3 +29,9 @@ Add Groups
 
     ~$ groupadd tech
     
+
+
+Delete Groups
+---------------
+
+    ~$ groupdel tech
