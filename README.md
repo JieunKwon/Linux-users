@@ -47,6 +47,8 @@ Require user to change password
 View user's password status 
 ----------------------------
 
-
+        ~$chage -l jieun
+        
+        
     
     
