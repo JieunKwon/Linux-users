@@ -23,3 +23,9 @@ Delete Users
     ~$ userdel -rf jieun
     
     
+
+Add Groups
+---------------
+
+    ~$ groupadd tech
+    
