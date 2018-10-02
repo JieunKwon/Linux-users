@@ -41,8 +41,8 @@ Require user to change password
 ----------------------------------
 - expire user's password
 
-   
-    ~$chage -d 0 jieun
+    
+        ~$chage -d 0 jieun
         
         
 View user's password status 
