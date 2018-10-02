@@ -1,7 +1,7 @@
 # Linux-users
 To practice add users and delete users 
 
-Adding Users
+Add Users
 -------------
 
 
@@ -15,3 +15,11 @@ Adding Users
 
 -p : make user's password
 
+
+Delete Users
+-----------------
+
+
+    ~$ userdel -rf jieun
+    
+    
