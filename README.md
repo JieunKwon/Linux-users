@@ -1,5 +1,7 @@
-# Linux-users
-To add users and delete users 
+# Linux 1
+# management users
+To add and delete user account
+To edit user account status
 
 Add Users
 -------------
