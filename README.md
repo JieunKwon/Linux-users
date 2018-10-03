@@ -49,6 +49,7 @@ View user's password status
 ----------------------------
 
         ~$chage -l jieun
+        ~$passwd -S jieun
         
         
     
