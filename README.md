@@ -11,11 +11,11 @@ Add Users
     ~$ useradd -c “Jieun, Admin” -m -s /bin/bash -p `mkpasswd 12345` jieun
 
  
-	-m: make home directory
-	-s: assign the default shell
-	-G: add groups
-	-p: set user’s password with `mkpasswd xxxxx`
-	-c: set comment 
+    	-m: make home directory
+    	-s: assign the default shell
+    	-G: add groups
+    	-p: set user’s password with `mkpasswd xxxxx`
+    	-c: set comment 
 
 
 Delete Users
