@@ -1,3 +1,4 @@
+
 # Linux 1
 # management users
 To add and delete user account
@@ -7,15 +8,14 @@ Add Users
 -------------
 
 
-    ~$ useradd -c “Jieun, Admin” -m -s /bin/bash -p 'mkpasswd 12345' jieun
+    ~$ useradd -c “Jieun, Admin” -m -s /bin/bash -p `mkpasswd 12345` jieun
 
--m : make home directory
-
--c : comment
-
--s : assign the shell
-
--p : make user's password
+ 
+	-m: make home directory
+	-s: assign the default shell
+	-G: add groups
+	-p: set user’s password with `mkpasswd xxxxx`
+	-c: set comment 
 
 
 Delete Users
@@ -54,5 +54,10 @@ View user's password status
         ~$passwd -S jieun
         
         
+View user's password status 
+----------------------------
+
+        ~$chage -l jieun
+        ~$passwd -S jieun
     
     
