@@ -18,6 +18,11 @@ Add Users
     	-c: set comment 
 
 
+        
+	~$ sudo apt install whois
+
+         need to install whois to use mkpasswd
+
 Delete Users
 -----------------
 
