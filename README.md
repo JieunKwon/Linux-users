@@ -67,3 +67,8 @@ View user's password status
         ~$passwd -S jieun
     
     
+Switch user
+---------------------
+
+        ~$su - jieun
+
