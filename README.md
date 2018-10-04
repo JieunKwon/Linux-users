@@ -17,9 +17,10 @@ Add Users
     	-p: set user’s password with `mkpasswd xxxxx`
     	-c: set comment 
 
-
+Mkpasswd 
+--------------
         
-	~$ sudo apt install whois
+    ~$ sudo apt install whois
 
          need to install whois to use mkpasswd
 
