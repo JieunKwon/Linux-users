@@ -72,3 +72,14 @@ Switch user
 
         ~$su - jieun
 
+Add group
+----------------
+	    
+               
+       ~$ groupadd Groupname
+
+
+Delete group
+------------------------
+    
+        ~$groupdel Groupname
