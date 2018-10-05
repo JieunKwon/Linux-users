@@ -73,8 +73,7 @@ Switch user
         ~$su - jieun
 
 Add group
-----------------
-	    
+----------------	    
                
        ~$ groupadd Groupname
 
