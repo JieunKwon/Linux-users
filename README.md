@@ -49,8 +49,8 @@ Require user to change password
  expire user's password
 
     
-       ~$chage -d 0 jieun
-       ~$passwd -e jieun       
+     ~$chage -d 0 jieun
+     ~$passwd -e jieun       
         
 View user's password status 
 ----------------------------
@@ -96,7 +96,8 @@ Set Permission
     //--x  1
 
 Change Group Onwership
-----------------------
+------------------------
+
     ~$sudo chgrp -R GroupName /Directory
     ~$sudo chown Owner:Group  /Directory
     
