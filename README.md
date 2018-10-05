@@ -6,8 +6,6 @@ To edit user account status
 
 Add Users
 -------------
-
-
     ~$ useradd -c “Jieun, Admin” -m -s /bin/bash -p `mkpasswd 12345` jieun
 
  
@@ -66,10 +64,12 @@ View user's password status
      ~$passwd -S jieun
     
     
-Switch user
----------------------
-     ~$su - jieun
-
+Change User Setting
+-------------------------
+    ~$usermod jieun
+    
+    -e expire date
+    -
 
 Add group
 --------------	    
@@ -89,5 +89,8 @@ View User Password
 ----------------------
     ~$sudo tail /etc/shadow
        
-     
+Switch user
+---------------------
+     ~$su - jieun
+    
      
