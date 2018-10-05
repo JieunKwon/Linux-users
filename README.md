@@ -25,10 +25,11 @@ Mkpasswd
 Delete Users
 -----------------
 
-
     ~$ userdel -rf jieun
     
-    
+View Group
+-------------------
+    ~$tail /etc/group    
 
 Add Groups
 ---------------
@@ -70,15 +71,7 @@ Change User Setting
     
     ~$usermod -e 2018-10-15 jieun
     // -e expire date : jieun account will be expired by 2018-10-15
-    
-Add group
---------------	    
-    ~$ groupadd Groupname
 
-
-Delete group
-------------------------
-    ~$groupdel Groupname
 
 View User Account
 ------------------------
@@ -92,10 +85,6 @@ View User Password
 Switch user
 ---------------------
      ~$su - jieun
-    
-View Group
--------------------
-    ~$tail /etc/group
     
 Set Permission
 ----------------
