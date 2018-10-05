@@ -62,39 +62,32 @@ View user's password status
         
 View user's password status 
 ----------------------------
-
-        ~$chage -l jieun
-        ~$passwd -S jieun
+     ~$chage -l jieun
+     ~$passwd -S jieun
     
     
 Switch user
 ---------------------
-
-        ~$su - jieun
+     ~$su - jieun
 
 
 Add group
---------------
-	    
-
-       ~$ groupadd Groupname
+--------------	    
+    ~$ groupadd Groupname
 
 
 Delete group
 ------------------------
-    
-        ~$groupdel Groupname
+    ~$groupdel Groupname
 
 View User Account
 ------------------------
-	
-         ~$tail -n10 /etc/passwd
-         ~$less /etc/passwd
+    ~$tail -n10 /etc/passwd
+    ~$less /etc/passwd
      
 View User Password
 ----------------------
-    
-       ~$sudo tail /etc/shadow
+    ~$sudo tail /etc/shadow
        
      
      
