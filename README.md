@@ -95,4 +95,6 @@ Switch user
 ---------------------
      ~$su - jieun
     
-     
+View Group
+-------------------
+    ~$tail /etc/group
