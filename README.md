@@ -66,10 +66,12 @@ View user's password status
     
 Change User Setting
 -------------------------
-    ~$usermod jieun
+    ~$usermod Option UserAccount
     
-    -e expire date
-    -
+    ~$usermod -e 2018-10-15 jieun
+    // -e expire date : jieun account will be expired by 2018-10-15
+   
+     
 
 Add group
 --------------	    
