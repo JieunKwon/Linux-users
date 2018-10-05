@@ -84,3 +84,17 @@ Delete group
 ------------------------
     
         ~$groupdel Groupname
+
+View User Account
+------------------------
+	
+         ~$tail -n10 /etc/passwd
+         ~$less /etc/passwd
+     
+View User Password
+----------------------
+    
+       ~$sudo tail /etc/shadow
+       
+     
+     
