@@ -70,9 +70,7 @@ Change User Setting
     
     ~$usermod -e 2018-10-15 jieun
     // -e expire date : jieun account will be expired by 2018-10-15
-   
-     
-
+    
 Add group
 --------------	    
     ~$ groupadd Groupname
@@ -98,3 +96,12 @@ Switch user
 View Group
 -------------------
     ~$tail /etc/group
+    
+Set Permission
+----------------
+    ~$sudo chmod -R 750 /DirName
+
+    //rwx  7
+    //r--  4
+    //-w-  2
+    //--x  1
