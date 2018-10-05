@@ -94,3 +94,9 @@ Set Permission
     //r--  4
     //-w-  2
     //--x  1
+
+Change Group Onwership
+----------------------
+    ~$sudo chgrp -R GroupName /Directory
+    ~$sudo chown Owner:Group  /Directory
+    
