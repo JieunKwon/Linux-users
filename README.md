@@ -1,6 +1,6 @@
 
 # Linux 1
-# User Management
+# User & Group Management
 
 - To add and delete user account
 - To add and delete group
